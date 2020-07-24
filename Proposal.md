@@ -1,0 +1,1 @@
+Use historic market data from Quandl to predict changes in market sentiment.
