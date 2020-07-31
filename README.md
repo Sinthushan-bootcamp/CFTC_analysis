@@ -1,5 +1,4 @@
 # Identifying Market Consensus using CFTC Weekly Data.
-
 ## Introduction
 ### Project Goal: 
 The goal of our project was to identify and aggregate data to quantify the current market consensus on a selected security. By using the weekly Commitments of Trader (CoT) report from the CFTC we calculated the current net position in the futures/options traded on the selected security.
@@ -49,10 +48,6 @@ Below is our Summary Table:
 
 ![Summarysheet](Images/Summary_table.png)
 
-## Data manipulation
-
-
-## Results
 
 <<<<<<< Updated upstream
 ## Conclusion/recommendations
