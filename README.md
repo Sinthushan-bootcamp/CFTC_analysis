@@ -1,31 +1,46 @@
-# Project_1
-
+# Identifying Market Consensus using CFTC Weekly Data.
 ## Introduction
 ### Project Goal: 
 The goal of our project was to identify and aggregate data to quantify the current market consensus on a selected security. By using the weekly Commitments of Trader (CoT) report from the CFTC we calculated the current net position in the futures/options traded on the selected security.
 
 To demonstrate, below is the current net positioning on the Euro and the price performance of the Euro over the same time frame.
 
-![EURCFTC](EURcftc.png)
+![EURCFTC](Working_Files/EURcftc.png?raw=true)
 
-![EURprice](EURprice.png)
+![EURprice](Working_Files/EURprice.png?raw=true)
 
 As you can see in the 'CFTC' chart the high point on the left of the chart (roughly April of 2018) was in fact the highest Net Long position in the EURO in the currency's history. In other words, according to our data market sentiment had never been as positive/bullish in 20 years! And as you can see with the price chart April 2018 was also the high point for the EURO, and preceded a 2 year decline in the EURO against the USD.
 
-Before getting into our process, the data itself and our final product, I'd like to answer the question of why identifying market sentiment/consensus is valuable. Warren Buffett once said that it is wise for investors to be “fearful when others are greedy, and greedy when others are fearful.” Applying this wisdom to our data, in April 2018 it would've paid to recognize that the market sentiment on the EURO was at extremely extended levels. And it therefore would be prudent to reduce your long exposure to the Euro or perhaps even short the Euro.  
+## Research Questions
 
-Our final summary sheet is below. We will of course go into more detail later in our presentation. However simply put we've identified a number of securities and calculated the Current Net positioning in the security. We then provide further context to the data by comparing the current net positioning in the security to the past by using a z-score. The z-score indicates how many standard deviations the current positioning is to the average and therefore whether the current positioning appears extended or not. By using a z-score we can compare multiple securities across multiple asset classes on an “apples to apples” basis. And get a quantified measure of the current market sentiment across the entire macro landscape.
+Our final summary sheet is below. We will of course go into more detail later in our presentation. However simply put we've identified a number of securities and calculated the Current Net positioning in the security. We then provide further context to our data by using a z-score. The z-score indicates how many standard deviations the current positioning is from the average and therefore whether the current positioning appears extended or not. By using a z-score we can also compare multiple securities across multiple asset classes on an “apples to apples” basis. And get a quantified measure of the current market sentiment across the entire macro landscape.
 
-![Summarysheet]()
+Yes by pulling the weekly CFTC's Commitments of Traders (CoT) report we calculated the current net position in the futures/options traded on the selected security. 
 
-## Data manipulation
+**How is the market positioned in these securities relative to the historical past?** 
 
-The data manipulation can be found in the [CFTC Data.ipynb](CFTC data.ipynb) file
+We used a z-score to provide context as to whether the current positioning appears extended or not based on historical average positioning.
 
-## Results
+**Does this measure have any predictive value for investors in terms of the future price of the selected security?** 
 
-The data manipulation can be found in the [FinalDataAnalysis.ipynb](FinalDataAnalysis.ipynb) file
-Visualizations can be found Visualization.ipynb(Visualization.ipynb) file
+Please refer to our dashboard that shows a number of charts where the positioning crossed our overbought/oversold signal and a breakdown on the S&P500 futures/options and subsequent 30 day returns.
+
+**How does this data inform a potential investment strategy?** 
+
+We believe this is a great quantitative tool to gauge the current market consensus on a given security. By using z-scores we can identify whether this positioning is extreme or not and can compare securities across asset classes 'apples to apples'. 
+
+To conclude we wouldn't use this data by itself to establish a position (long or short) in a security. However, this is great data to use to help with market timing and help determine appropriate position size for each security.
+
+
+## Results - Summary Table
+The data manipulation can be found in the [CFTC Data.ipynb]("CFTC data.ipynb") file
+
+The data manipulation can be found in the [FinalDataAnalysis.ipynb](FinalDataAnalysis.ipynb) file Visualizations can be found [Visualization.ipynb](Visualization.ipynb) file
+
+Below is our Summary Table:
+
+![Summarysheet](Images/Summary_table.png?raw=true)
+
+
 ## Conclusion/recommendations
-
 We feel that the z score can complement other strategies by reafirming a conclusion as well as assisting with market timing
