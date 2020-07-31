@@ -20,7 +20,12 @@ Our final summary sheet is below. We will of course go into more detail later in
 
 ## Data manipulation
 
+The data manipulation can be found in the [CFTC Data.ipynb](CFTC data.ipynb) file
 
 ## Results
 
+The data manipulation can be found in the [FinalDataAnalysis.ipynb](FinalDataAnalysis.ipynb) file
+Visualizations can be found Visualization.ipynb(Visualization.ipynb) file
 ## Conclusion/recommendations
+
+We feel that the z score can complement other strategies by reafirming a conclusion as well as assisting with market timing
