@@ -5,9 +5,9 @@ The goal of our project was to identify and aggregate data to quantify the curre
 
 To demonstrate, below is the current net positioning on the Euro and the price performance of the Euro over the same time frame.
 
-![EURCFTC](Working_Files/EURcftc.png?raw=true)
+![EURCFTC](Images/EURcftc.png?raw=true)
 
-![EURprice](Working_Files/EURprice.png?raw=true)
+![EURprice](Images/EURprice.png?raw=true)
 
 As you can see in the 'CFTC' chart the high point on the left of the chart (roughly April of 2018) was in fact the highest Net Long position in the EURO in the currency's history. In other words, according to our data market sentiment had never been as positive/bullish in 20 years! And as you can see with the price chart April 2018 was also the high point for the EURO, and preceded a 2 year decline in the EURO against the USD.
 
